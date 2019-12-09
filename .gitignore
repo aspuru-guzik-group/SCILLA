@@ -1,0 +1,18 @@
+# Specific to operating system
+__pycache__/
+**/__pycache__/
+.DS_Store
+**/*.pyc
+
+# Databases should be kept separate
+**/*.db
+**/*.db-journal
+
+# Temporary directories and files
+.scratch/
+TIME*
+.scratch_dir*
+wraps*
+
+# Miscellaneous
+JJcircuitSim*/
