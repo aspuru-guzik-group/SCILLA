@@ -1,1 +1,0 @@
-SCILLA databases are stored in this folder.
