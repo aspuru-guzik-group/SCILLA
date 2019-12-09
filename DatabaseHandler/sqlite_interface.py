@@ -4,6 +4,7 @@ __author__ = 'Florian Hase'
 
 #========================================================================
 
+import os
 import uuid
 import time
 import copy
@@ -31,6 +32,11 @@ class SQLiteDatabase(object):
 		self.db_path              = 'sqlite:///%s' % path
 		self.attributes           = attributes
 		self.name                 = name
+
+		# check if path exists
+		dir_name = '/'.join(path.split('/')[:-1])
+		if not os.path.isdir(dir_name):
+			os.makedirs(dir_name)	
 
 		# create database 
 		self.db       = sql.create_engine(self.db_path)
