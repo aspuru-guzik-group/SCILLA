@@ -1,10 +1,16 @@
 # SCILLA
 
 SCILLA is a software for automated discovery of superconducting circuits.
-It provides a closed-loop implementation of circuit design, property computation, and merit evaluation.
+Starting from a desired target property for the quantum circuit, it provides a closed-loop implementation of circuit design, property computation, and merit evaluation that searches the design space and identifies promising circuits.
 The software and its scientific application are described in ref [1].
 Implementation details and examples are provided in the supplementary information of the manuscript.
 
+The script `main_benchmark.py` is provided as an example and benchmark of SCILLA.
+It searches the space of 2-node superconducting circuits for circuits with a flux spectrum that matches the capacitatively shunted flux qubit.
+The script is executed with the following command:
+```python
+python main_benchmark.py
+```
 
 
 ### Requirements
