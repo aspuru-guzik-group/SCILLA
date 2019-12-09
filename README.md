@@ -22,7 +22,7 @@ The required packages are listed in the `environment.yml` file.
 
 ### Disclaimer
 
-Note: This repository is under construction. We hope to add further details on the method, instructions and more examples in the near future. 
+_This repository is under construction._ We hope to add further details on the method, instructions and more examples in the near future. 
 
 
 ### Experiencing problems? 
