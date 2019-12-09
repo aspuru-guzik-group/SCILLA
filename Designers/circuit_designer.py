@@ -28,7 +28,7 @@ class CircuitDesigner(object):
 
 
 	def add_designer(self, name_id, keyword, options):
-		elif keyword == 'particle_swarms':
+		if keyword == 'particle_swarms':
 			from Designers import ParticleSwarmDesigner as SelectedDesigner
 		elif keyword == 'scipy':
 			from Designers import ScipyMinimizeDesigner as SelectedDesigner

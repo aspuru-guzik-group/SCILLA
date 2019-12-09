@@ -12,7 +12,8 @@ from circuit_searcher import CircuitSearcher
 if __name__ == '__main__':
 	"""
 		Set parameters and run the inverse design algorithm.
-		Note: task names are assumed to be unique.
+		Note 1: Task names are assumed to be unique.
+		Note 2: The JJcircuitSim circuit simulation module is *not* included on the SCILLA GitHub repo.
 	"""
 
 	# Simulation of 3-node circuits (using JJcircuitSim V3.6e)

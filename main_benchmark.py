@@ -18,7 +18,7 @@ if __name__ == '__main__':
 			phiExt: array		   | external fluxes for which to solve circuit
 			target_spectrum: array | target flux spectrum of circuit (used by specific loss functions only)
 
-		Note: task names are assumed to be unique.
+		Note: Task names are assumed to be unique.
 	"""
 
 	# Python simulation of 2-node circuits

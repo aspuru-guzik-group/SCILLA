@@ -34,6 +34,9 @@ def solver_JJcircuitSimV3(Carr, Larr, JJarr, nLin=6, nNol=8, nJos=11, nIsl=1, ti
 
 	print('Running circuit simulation...')
 
+	if not os.path.exists('../Mathematica_scriptV2-JJsimV3.wl'):
+		raise NotImplementedError('JJcircuitSim module not available')
+
 	tA = time.time()
 
 	timeout_bool = False

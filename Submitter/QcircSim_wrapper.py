@@ -3,7 +3,6 @@
 """ Submits simulation job to desired solver and returns simulation results """
 
 # Import available circuit solvers
-from Submitter import solver_JJcircuitSim
 from Submitter import solver_JJcircuitSimV3
 from Submitter import solver_2node
 
