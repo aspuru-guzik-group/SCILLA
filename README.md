@@ -37,4 +37,4 @@ This software is written by [Tim Menke](https://github.com/Timmenke) and [Floria
 
 ### References
 
-[1] Tim Menke, Florian Häse, Simon Gustavsson, Andrew J. Kerman, William D. Oliver, and Alán Aspuru-Guzik, [Automated discovery of superconducting circuits and its application to 4-local coupler design](https://arxiv.org/abs/1912.xxxxx), arXiv preprint arXiv:1912.xxxxx (2019).
+[1] Tim Menke, Florian Häse, Simon Gustavsson, Andrew J. Kerman, William D. Oliver, and Alán Aspuru-Guzik, [Automated discovery of superconducting circuits and its application to 4-local coupler design](https://arxiv.org/abs/1912.03322), arXiv preprint arXiv:1912.03322 (2019).
